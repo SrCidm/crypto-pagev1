@@ -1,3 +1,2 @@
 
-
-export var apikeys = "your_api_here";
+export var apikeys = "you_api_key";
