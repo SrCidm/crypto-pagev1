@@ -1,11 +1,77 @@
-This project is a web application for visualizing cryptocurrency-related information using the CryptoCompare API. It is developed using the JavaScript programming language, specifically the React.js framework for building the user interface. Additionally, it makes use of Material-UI, a library of user interface components for React, for the design and styling of visual elements.
+# Cryptocurrency Visualization Web Application
 
-The application consists of several pages, including a homepage that displays a table of cryptocurrencies ranked by market capitalization, a page detailing each individual cryptocurrency, and a page with historical price and volume charts.
+This project is a web application designed to visualize cryptocurrency-related information using the **CryptoCompare API**. It is built using **React.js**, a popular JavaScript framework for building user interfaces, and leverages **Material-UI** for designing and styling the visual components.
 
-Key features include:
+## Features
 
-Real-time price visualization of cryptocurrencies in different fiat currencies (USD, EUR).
-Interactive historical charts showing the evolution of prices and trading volume over time.
-A carousel of trending cryptocurrencies displaying the most popular coins at the moment.
-Integration of a navigation menu for a seamless user experience.
-In summary, this application provides a platform for intuitively and visually exploring and analyzing cryptocurrency-related data.
+- **Real-time Cryptocurrency Prices**: View real-time prices of cryptocurrencies in various fiat currencies (e.g., USD, EUR).
+- **Interactive Historical Charts**: Explore historical price and trading volume data with interactive charts.
+- **Trending Cryptocurrencies**: A carousel showcasing the most popular cryptocurrencies at the moment.
+- **User-friendly Navigation**: Seamless navigation through the application with an intuitive menu.
+
+## Pages
+
+- **Homepage**: Displays a table of cryptocurrencies ranked by market capitalization.
+- **Cryptocurrency Details**: Provides detailed information about individual cryptocurrencies.
+- **Historical Charts**: Shows historical price and volume data for selected cryptocurrencies.
+
+## Technologies Used
+
+- **React.js**: For building the user interface.
+- **Material-UI**: For designing and styling components.
+- **CryptoCompare API**: For fetching cryptocurrency data.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+    git clone https://github.com/SrCidm/crypto-pagev1.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd crypto-pagev1
+    ```
+3. Install dependecies
+    ```bash
+    npm install
+    ```
+4. Start the development server:
+    ```bash
+    npm start
+    ```
+## Enviorment Variables
+- To run this project, you will need to set up the following environment variable in a .env file:
+    ```bash
+    REACT_APP_API_KEY=your_cryptocompare_api_key
+    ```
+## Deployment
+
+- This project can be deployed on Netlify or any other static site hosting service. Follow these steps to deploy:
+
+1. Build the project:
+    ```bash
+    npm run build
+    ```
+2. Deploy the build folder to your preferred hosting services
+
+## Contributing
+
+- Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+
+- CryptoCompare for providing the API.
+
+- Material-UI for the UI components.
+
+- React.js for the framework.
