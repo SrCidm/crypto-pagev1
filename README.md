@@ -2,6 +2,8 @@
 
 This project is a web application designed to visualize cryptocurrency-related information using the **CryptoCompare API**. It is built using **React.js**, a popular JavaScript framework for building user interfaces, and leverages **Material-UI** for designing and styling the visual components.
 
+![mainTop](Screenshots/mainTop.png)
+![maindown](Screenshots/mainDown.png)
 ## Features
 
 - **Real-time Cryptocurrency Prices**: View real-time prices of cryptocurrencies in various fiat currencies (e.g., USD, EUR).
@@ -14,7 +16,7 @@ This project is a web application designed to visualize cryptocurrency-related i
 - **Homepage**: Displays a table of cryptocurrencies ranked by market capitalization.
 - **Cryptocurrency Details**: Provides detailed information about individual cryptocurrencies.
 - **Historical Charts**: Shows historical price and volume data for selected cryptocurrencies.
-
+![dataPerCoin](Screenshots/dataPerCoin.png)
 ## Technologies Used
 
 - **React.js**: For building the user interface.
